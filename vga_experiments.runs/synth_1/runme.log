@@ -1,0 +1,339 @@
+
+*** Running vivado
+    with args -log vga_test.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source vga_test.tcl
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source vga_test.tcl -notrace
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1319.723 ; gain = 34.836 ; free physical = 94856 ; free virtual = 123218
+Command: read_checkpoint -auto_incremental -incremental /moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from /moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top vga_test -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 888162
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2057.258 ; gain = 400.652 ; free physical = 93749 ; free virtual = 122112
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'tm_wt_x', assumed default net type 'wire' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:47]
+INFO: [Synth 8-11241] undeclared symbol 'tm_wt_y', assumed default net type 'wire' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:48]
+INFO: [Synth 8-6157] synthesizing module 'vga_test' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:14]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'det_tile' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/det_tile.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'det_tile' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/det_tile.v:5]
+INFO: [Synth 8-6157] synthesizing module 'sub_tile' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/sub_tile.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sub_tile' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/sub_tile.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tile_mem' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:1]
+WARNING: [Synth 8-567] referenced signal 'tile_data' should be on the sensitivity list [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:59]
+WARNING: [Synth 8-567] referenced signal 'read_address' should be on the sensitivity list [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:59]
+WARNING: [Synth 8-567] referenced signal 'tile_active' should be on the sensitivity list [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'tile_mem' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'char' does not match port width (1) of module 'tile_mem' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:60]
+WARNING: [Synth 8-7071] port 'clk' of module 'tile_mem' is unconnected for instance 'tile_mem' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:60]
+WARNING: [Synth 8-7023] instance 'tile_mem' of module 'tile_mem' has 10 connections declared, but only 9 given [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:60]
+INFO: [Synth 8-6157] synthesizing module 'font_mem' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/font_mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'font_mem' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/font_mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'vga_test' (0#1) [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:14]
+WARNING: [Synth 8-7129] Port char[7] in module font_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module tile_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[9] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[8] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[7] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[6] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[5] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[4] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[3] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[9] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[8] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[7] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[6] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[5] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[4] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[3] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[1] in module vga_test is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 2489.078 ; gain = 832.473 ; free physical = 93281 ; free virtual = 121647
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2500.953 ; gain = 844.348 ; free physical = 93297 ; free virtual = 121662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2500.953 ; gain = 844.348 ; free physical = 93297 ; free virtual = 121662
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2500.953 ; gain = 0.000 ; free physical = 93306 ; free virtual = 121671
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+WARNING: [Vivado 12-507] No nets matched 'LED_OBUF'. [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'tm_clk_IBUF'. [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/vga_test_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/vga_test_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2583.703 ; gain = 0.000 ; free physical = 93260 ; free virtual = 121625
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2583.738 ; gain = 0.000 ; free physical = 93260 ; free virtual = 121625
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 2583.738 ; gain = 927.133 ; free physical = 93187 ; free virtual = 121555
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'char_reg' [/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:64]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:29:29 ; elapsed = 00:30:48 . Memory (MB): peak = 53042.242 ; gain = 51385.637 ; free physical = 38744 ; free virtual = 66245
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 2     
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 4802  
++---Muxes : 
+	   2 Input   12 Bit        Muxes := 1     
+	 128 Input    8 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7129] Port sw[11] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[1] in module vga_test is either unconnected or has no load
+DSP Report: Generating DSP read_address, operation Mode is: C+A*(B:0x50).
+DSP Report: operator read_address is absorbed into DSP read_address.
+DSP Report: operator read_address0 is absorbed into DSP read_address.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:29:52 ; elapsed = 00:31:26 . Memory (MB): peak = 53062.180 ; gain = 51405.574 ; free physical = 38155 ; free virtual = 65713
+---------------------------------------------------------------------------------
+ Sort Area is tile_mem__GB2 read_address_0 : 0 0 : 88 88 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++------------+-------------------+---------------+----------------+
+|Module Name | RTL Object        | Depth x Width | Implemented As | 
++------------+-------------------+---------------+----------------+
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|font_mem    | font_rom          | 128x8         | LUT            | 
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|font_mem    | font_rom          | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x8         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
+|vga_test    | font_mem/font_rom | 128x7         | LUT            | 
++------------+-------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|tile_mem    | C+A*(B:0x50) | 10     | 7      | 10     | -      | 13     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:30:02 ; elapsed = 00:31:36 . Memory (MB): peak = 53062.180 ; gain = 51405.574 ; free physical = 38143 ; free virtual = 65725
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:30:02 ; elapsed = 00:31:36 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38120 ; free virtual = 65702
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:30:02 ; elapsed = 00:31:37 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38113 ; free virtual = 65700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     2|
+|3     |LUT2 |     5|
+|4     |LUT3 |     2|
+|5     |LUT4 |     4|
+|6     |LUT5 |    10|
+|7     |LUT6 |     9|
+|8     |FDCE |    44|
+|9     |IBUF |     3|
+|10    |OBUF |    15|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:30:08 ; elapsed = 00:31:42 . Memory (MB): peak = 53088.305 ; gain = 51431.699 ; free physical = 38115 ; free virtual = 65701
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:30:05 ; elapsed = 00:31:37 . Memory (MB): peak = 53092.215 ; gain = 51352.824 ; free physical = 43708 ; free virtual = 71294
+Synthesis Optimization Complete : Time (s): cpu = 00:30:12 ; elapsed = 00:31:44 . Memory (MB): peak = 53092.215 ; gain = 51435.609 ; free physical = 43716 ; free virtual = 71293
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 53092.215 ; gain = 0.000 ; free physical = 43716 ; free virtual = 71294
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 53092.312 ; gain = 0.000 ; free physical = 43713 ; free virtual = 71291
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 508ad70f
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 64 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:30:17 ; elapsed = 00:31:51 . Memory (MB): peak = 53092.348 ; gain = 51766.688 ; free physical = 43711 ; free virtual = 71289
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 58013.342; main = 52458.444; forked = 5747.893
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 62691.871; main = 53092.316; forked = 9633.609
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 53098.324 ; gain = 0.000 ; free physical = 43716 ; free virtual = 71294
+INFO: [Common 17-1381] The checkpoint '/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file vga_test_utilization_synth.rpt -pb vga_test_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 24 15:58:33 2025...
