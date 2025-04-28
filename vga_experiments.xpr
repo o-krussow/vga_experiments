@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="65" Path="/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.xpr">
+<Project Product="Vivado" Version="7" Minor="65" Path="/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="9816b6f98f974651b5cb0a06cb3eb098"/>
@@ -223,7 +223,7 @@
         <ReportConfig DisplayName="synthesis_report" Name="synth_1_copy_1_synth_synthesis_report_0" Spec="" RunStep="synth_design" ReportFile="vga_test.vds">
           <ReportConfigOption Name="dummy_option" Type="string"/>
         </ReportConfig>
-        <ReportConfig DisplayName="Utilization - Synth Design" Name="synth_1_copy_1_synth_report_utilization_0" Spec="report_utilization" RunStep="synth_design" ReportFile="vga_test_utilization_synth_1.rpt" Version="1" Minor="0">
+        <ReportConfig DisplayName="Utilization - Synth Design" Name="synth_1_copy_1_synth_report_utilization_0" Spec="report_utilization" RunStep="synth_design" ReportFile="vga_test_utilization_synth.rpt" Version="1" Minor="0">
           <ReportConfigOption Name="dummy_option" Type="string"/>
           <ReportConfigOutputOption Name="pb" Type="string" Value=""/>
         </ReportConfig>

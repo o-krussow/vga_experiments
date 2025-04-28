@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1'
+HD_PWD='/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

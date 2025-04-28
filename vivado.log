@@ -1,0 +1,711 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Apr 27 09:33:51 2025
+# Process ID: 1735155
+# Current directory: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments
+# Command line: vivado
+# Log file: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vivado.log
+# Journal file: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vivado.jou
+# Running On: n284, OS: Linux, CPU Frequency: 2601.520 MHz, CPU Physical cores: 20, Host memory: 135114 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.xpr
+INFO: [Project 1-313] Project file moved from '/moosefs/home/o936k099/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/moosefs/apps/9/arch/generic/other/xilinx/2023.2/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 09:59:37 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 09:59:37 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: vga_test
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1747069
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8687.285 ; gain = 400.582 ; free physical = 92919 ; free virtual = 122367
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'tm_wt_x', assumed default net type 'wire' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:47]
+INFO: [Synth 8-11241] undeclared symbol 'tm_wt_y', assumed default net type 'wire' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:48]
+INFO: [Synth 8-6157] synthesizing module 'vga_test' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:14]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:21]
+INFO: [Synth 8-6157] synthesizing module 'det_tile' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/det_tile.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'det_tile' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/det_tile.v:5]
+INFO: [Synth 8-6157] synthesizing module 'sub_tile' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/sub_tile.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'sub_tile' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/sub_tile.v:3]
+INFO: [Synth 8-6157] synthesizing module 'tile_mem' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:1]
+WARNING: [Synth 8-567] referenced signal 'tile_data' should be on the sensitivity list [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:58]
+WARNING: [Synth 8-567] referenced signal 'read_address' should be on the sensitivity list [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:58]
+WARNING: [Synth 8-567] referenced signal 'tile_active' should be on the sensitivity list [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'tile_mem' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:1]
+WARNING: [Synth 8-689] width (8) of port connection 'char' does not match port width (1) of module 'tile_mem' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:60]
+INFO: [Synth 8-6157] synthesizing module 'font_mem' [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/font_mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'font_mem' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/font_mem.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'vga_test' (0#1) [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:14]
+WARNING: [Synth 8-7129] Port char[7] in module font_mem is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[9] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[8] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[7] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[6] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[5] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[4] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port x[3] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[9] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[8] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[7] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[6] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[5] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[4] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[3] in module sub_tile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[11] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[10] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[9] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[8] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[7] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[6] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[5] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sw[0] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[4] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_x_in[1] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[3] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[2] in module vga_test is either unconnected or has no load
+WARNING: [Synth 8-7129] Port tm_wt_y_in[1] in module vga_test is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 9130.879 ; gain = 844.176 ; free physical = 92382 ; free virtual = 121834
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 9130.879 ; gain = 844.176 ; free physical = 92413 ; free virtual = 121864
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 9130.879 ; gain = 844.176 ; free physical = 92413 ; free virtual = 121864
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.29 . Memory (MB): peak = 9130.887 ; gain = 0.000 ; free physical = 92721 ; free virtual = 122172
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+WARNING: [Vivado 12-507] No nets matched 'LED'. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9239.754 ; gain = 0.000 ; free physical = 92695 ; free virtual = 122146
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:01 ; elapsed = 00:00:45 . Memory (MB): peak = 9311.797 ; gain = 1025.094 ; free physical = 92660 ; free virtual = 122114
+20 Infos, 39 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:05 ; elapsed = 00:00:51 . Memory (MB): peak = 9311.797 ; gain = 1232.508 ; free physical = 92660 ; free virtual = 122114
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3050.985; main = 2850.226; forked = 423.229
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 10088.582; main = 9292.602; forked = 957.699
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+[Sun Apr 27 10:54:15 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 10:54:16 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 11:31:27 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 11:31:28 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+[Sun Apr 27 12:11:56 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 12:11:56 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 13:02:29 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 13:02:29 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9311.797 ; gain = 0.000 ; free physical = 93892 ; free virtual = 122452
+INFO: [Netlist 29-17] Analyzing 254 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'vga_test' is not ideal for floorplanning, since the cellview 'tile_mem' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2023.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+Finished Parsing XDC File [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/constrs_1/new/const_vga.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9311.797 ; gain = 0.000 ; free physical = 93888 ; free virtual = 122448
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+report_methodology -name ultrafast_methodology_1
+Command: report_methodology -name ultrafast_methodology_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 9653.410 ; gain = 332.742 ; free physical = 93541 ; free virtual = 122100
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Sun Apr 27 14:10:50 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 14:10:50 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+close_design
+close_design
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 14:52:35 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 14:52:35 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw_manager
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 15:35:24 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 15:35:24 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 15:37:18 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 15:37:18 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+INFO: [Common 17-14] Message 'filemgmt 56-199' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Sun Apr 27 17:05:34 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Sun Apr 27 17:05:34 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+ERROR: [Labtoolstcl 44-695] HW Server shut down, disconnecting from server: localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.2.0
+  ****** Build date   : Oct 09 2023-23:01:56
+    **** Build number : 2023.2.1696910516
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target {localhost:3121/xilinx_tcf/Digilent/210183BD334EA}
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183BD334EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Mon Apr 28 11:28:30 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Mon Apr 28 11:28:30 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Mon Apr 28 11:31:25 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Mon Apr 28 11:31:25 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/utils_1/imports/synth_1/vga_test.dcp with file /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/vga_test.dcp
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_test.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/vga_controller.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.srcs/sources_1/new/tile_mem.v:]
+launch_runs impl_1 -to_step write_bitstream -jobs 20
+[Mon Apr 28 12:17:04 2025] Launched synth_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/synth_1/runme.log
+[Mon Apr 28 12:17:04 2025] Launched impl_1...
+Run output will be captured here: /moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {/moosefs/home/o936k099/school/vivado_vga_exp_continued_pt2/vivado_vga_exp_continued/vga_experiments/vga_experiments.runs/impl_1/vga_test.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.

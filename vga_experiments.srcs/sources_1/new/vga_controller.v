@@ -32,8 +32,10 @@ module vga_controller(
     // Based on VGA standards found at vesa.org for 640x480 resolution
     // Total horizontal width of screen = 800 pixels, partitioned  into sections
     parameter HD = 640;             // horizontal display area width in pixels
-    parameter HF = 48;              // horizontal front porch width in pixels
-    parameter HB = 16;              // horizontal back porch width in pixels
+    //parameter HF = 48;              // horizontal front porch width in pixels
+    parameter HF = 16;
+    //parameter HB = 16;              // horizontal back porch width in pixels
+    parameter HB = 48;
     parameter HR = 96;              // horizontal retrace width in pixels
     parameter HMAX = HD+HF+HB+HR-1; // max value of horizontal counter = 799
     // Total vertical length of screen = 525 pixels, partitioned into sections
@@ -55,6 +57,22 @@ module vga_controller(
 	
 	assign w_25MHz = (r_25MHz == 0) ? 1 : 0; // assert tick 1/4 of the time
     // ****************************************************************************************
+    
+    //reg [1:0] clk_div = 2'b00;
+    //reg clk_25MHz = 1'b0;
+
+    //always @(posedge clk_100MHz or posedge reset) begin
+    //    if(reset) begin
+    //        clk_div <= 2'b00;
+    //        clk_25MHz <= 1'b0;
+    //    end else begin
+    //        clk_div <= clk_div + 1'b1;
+    //        if(clk_div == 2'b11) begin
+    //           clk_25MHz <= ~clk_25MHz;
+    //        end
+    //    end
+    //end
+    
     
     // Counter Registers, two each for buffering to avoid glitches
     reg [9:0] h_count_reg, h_count_next;
