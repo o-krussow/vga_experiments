@@ -2313,3 +2313,24 @@ dismissDialog("Program Device"); // bq (Program Device Progress)
 // HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 89 MB. Current time: 4/28/25, 1:00:44 PM CDT
 // Elapsed time: 470 seconds
 selectCodeEditor("tile_mem.v", 278, 268); // ad (tile_mem.v)
+// Elapsed time: 513 seconds
+selectCodeEditor("tile_mem.v", 132, 333); // ad (tile_mem.v)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 89 MB. Current time: 4/28/25, 1:30:44 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 90 MB. Current time: 4/28/25, 2:00:44 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 88 MB. Current time: 4/28/25, 2:30:44 PM CDT
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183BD334EA 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 90 MB. Current time: 4/28/25, 3:00:44 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 90 MB. Current time: 4/28/25, 3:30:44 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 89 MB. Current time: 4/28/25, 4:00:44 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 3,737 MB. GUI used memory: 89 MB. Current time: 4/28/25, 4:30:44 PM CDT
+// Elapsed time: 13176 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Close Hardware Target"); // j.a (dialog68)
+selectCodeEditor("tile_mem.v", 296, 312); // ad (tile_mem.v)
