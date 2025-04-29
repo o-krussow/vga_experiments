@@ -18,14 +18,14 @@ reg [CHAR_WIDTH-1:0] font_rom [0:NUM_CHARS-1][0:CHAR_HEIGHT-1];
 
 //font ROM
 initial begin
-  font_rom[0][0] = 8'b00000000;
-  font_rom[0][1] = 8'b00000000;
-  font_rom[0][2] = 8'b00000000;
-  font_rom[0][3] = 8'b00000000;
-  font_rom[0][4] = 8'b00000000;
-  font_rom[0][5] = 8'b00000000;
-  font_rom[0][6] = 8'b00000000;
-  font_rom[0][7] = 8'b00000000;
+  font_rom[0][0] = 8'b11111111;
+  font_rom[0][1] = 8'b11111111;
+  font_rom[0][2] = 8'b11111111;
+  font_rom[0][3] = 8'b11111111;
+  font_rom[0][4] = 8'b11111111;
+  font_rom[0][5] = 8'b11111111;
+  font_rom[0][6] = 8'b11111111;
+  font_rom[0][7] = 8'b11111111;
   font_rom[1][0] = 8'b00000000;
   font_rom[1][1] = 8'b00000000;
   font_rom[1][2] = 8'b00000000;

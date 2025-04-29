@@ -55,7 +55,7 @@ module tile_mem (
             // Check if we're in valid tile range
             if (rt_x < H_TILES && rt_y < V_TILES) begin
                 if (tile_data[read_address]) begin
-                    char <= 35; // ASCII for '#'
+                    char <= 0; // Replaced with all pixels on
                 end else begin
                     char <= 32; // ASCII for space
                 end

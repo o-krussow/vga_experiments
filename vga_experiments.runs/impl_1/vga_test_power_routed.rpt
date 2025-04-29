@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-| Date             : Mon Apr 28 12:54:52 2025
+| Date             : Tue Apr 29 12:55:16 2025
 | Host             : n284 running 64-bit unknown
 | Command          : report_power -file vga_test_power_routed.rpt -pb vga_test_power_summary_routed.pb -rpx vga_test_power_routed.rpx
 | Design           : vga_test
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.154        |
+| Total On-Chip Power (W)  | 0.156        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.082        |
+| Dynamic (W)              | 0.084        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.2         |
@@ -53,17 +53,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.001 |        3 |       --- |             --- |
-| Slice Logic    |     0.029 |    12486 |       --- |             --- |
-|   LUT as Logic |     0.028 |     5675 |     20800 |           27.28 |
-|   F7/F8 Muxes  |     0.001 |      959 |     32600 |            2.94 |
-|   Register     |    <0.001 |     4879 |     41600 |           11.73 |
+| Slice Logic    |     0.031 |    12440 |       --- |             --- |
+|   LUT as Logic |     0.030 |     5707 |     20800 |           27.44 |
+|   F7/F8 Muxes  |     0.001 |      958 |     32600 |            2.94 |
+|   Register     |    <0.001 |     4878 |     41600 |           11.73 |
 |   CARRY4       |    <0.001 |       10 |      8150 |            0.12 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
-|   Others       |     0.000 |        6 |       --- |             --- |
-| Signals        |     0.042 |    10575 |       --- |             --- |
-| I/O            |     0.010 |       33 |       106 |           31.13 |
+|   Others       |     0.000 |        5 |       --- |             --- |
+| Signals        |     0.044 |    10528 |       --- |             --- |
+| I/O            |     0.007 |       33 |       106 |           31.13 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.154 |          |           |                 |
+| Total          |     0.156 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,9 +73,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.082 |       0.072 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.087 |       0.077 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
-| Vcco33    |       3.300 |     0.004 |       0.003 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -142,8 +142,8 @@ Table of Contents
 +------------+-----------+
 | Name       | Power (W) |
 +------------+-----------+
-| vga_test   |     0.082 |
-|   tile_mem |     0.055 |
+| vga_test   |     0.084 |
+|   tile_mem |     0.060 |
 |   vga_c    |     0.010 |
 +------------+-----------+
 
