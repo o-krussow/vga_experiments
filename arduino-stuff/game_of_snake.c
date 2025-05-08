@@ -326,6 +326,7 @@ void updateSnake() {
         if (moveInterval > 50) { // Set a minimum interval (fastest speed)
            moveInterval -= 5; // Decrease interval by 5ms
         }
+	send_command(0, foodX, foodY);
         placeFood(); // Place new food (this function also draws it)
         Serial.print("Ate food! Score: "); Serial.print(score);
         Serial.print(" Speed Interval: "); Serial.println(moveInterval);
@@ -478,3 +479,4 @@ void loop() {
     // Adjust or remove if it impacts input responsiveness.
     delay(5);
 }
+
